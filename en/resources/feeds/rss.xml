@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<rss version="2.0">	
+<channel>	
+<title>-----------</title>	
+<link>http://www.localhost</link>	
+<description>-----------</description>	
+<item>	
+<title></title>	
+<link>http://www.localhost/details.php?news_id=1</link>	
+<description><![CDATA[<p><img src="http://www.localhost/images/news/images/news/119185201743466161497609075.jpg" align="left" width="150" border="0"/>as</p>]]></description>	
+<pubDate>2017-06-16 13:31:15  </pubDate>	
+<author>-----------</author>	
+</item>	
+</channel>	
+</rss>	

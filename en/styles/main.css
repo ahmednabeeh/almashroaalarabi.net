@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+body{
+    direction: ltr;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    color: #0b3647;
+}
+#header{
+    background-color: #202f47;
+    border-bottom: 5px solid #389585;
+    text-align: center;
+    background-image: url('../images/header.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#header #container{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header #container #navigation{
+    display: inline-block;
+    width: 830px;
+}
+
+#header #container #navigation #logo{
+    text-align: left;
+    width: 900px;
+    margin-bottom: 50px;
+
+}
+#header #container #navigation #logo img{
+}
+#header #container #navigation #menu{
+    width: 920px;
+}
+#header #container #navigation #menu ul{
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/menu.png) no-repeat;
+    background-position-x: -20px;
+    margin-left: 300px;
+}
+#header #container #navigation #menu ul li{
+    list-style-type: none;
+    display: inline;
+}
+#header #container #navigation #menu ul li a{
+    display: inline-block;
+    color: #fff;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#header #container #image{
+    display: inline-block;
+    width: 280px;
+    vertical-align: bottom;
+    margin-left: 180px;
+}
+
+#wrapper{
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#wrapper #rightSideBar{
+    width: 180px;
+    background-color: #ced5d6;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    height: 2180px;
+}
+#wrapper #rightSideBar #rightSideBarMenu{
+
+}
+#wrapper #rightSideBar #rightSideBarMenu ul{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper #rightSideBar #rightSideBarMenu ul li.home{
+    list-style-type: none;
+    background-image: url('../images/home.png');
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+}
+#wrapper #rightSideBar #rightSideBarMenu ul li.home a{
+    color: #fff;
+    font-weight: normal;
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+#wrapper #rightSideBar #rightSideBarMenu ul li{
+    list-style-type: none;
+    background-image: url('../images/btn.png');
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+}
+#wrapper #rightSideBar #rightSideBarMenu ul li a{
+    color: #fff;
+    font-weight: normal;
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+#wrapper #rightSideBar #socialIcons{
+    margin-top: 20px;
+    text-align: center;
+}
+#wrapper #rightSideBar #socialIcons a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#wrapper #midBar{
+    width: 812px;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 100px;
+    text-align: left;
+    background-color: #e7ecec;
+    padding: 10px;
+    padding-top: 25px;
+    height: 2265px;
+}
+#wrapper #midBar #urgent{
+    background-image: url('../images/urgent.jpg');
+    background-repeat: no-repeat;
+}
+#wrapper #midBar #urgent #scroll{
+    margin-left: 100px;
+    color: #fff;
+    overflow: hidden;
+}
+#wrapper #midBar #urgent #scroll p{
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: movingText 20s infinite; /* Safari 4+ */
+    -moz-animation: movingText 20s infinite; /* Fx 5+ */
+    -o-animation: movingText 20s infinite; /* Opera 12+ */
+    animation: movingText 20s infinite;
+    animation-delay: 1s;
+}
+@keyframes movingText{
+    0%{
+        padding-left: 0%;
+    }
+    100%{
+        padding-left: 100%;
+    }
+}
+            
+#wrapper #midBar #latestNewsTitle{
+    background-image: url('../images/latest-news-title.jpg');
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+#wrapper #midBar #activities{
+    margin-top: 20px;   
+}
+#wrapper #midBar #activities .title{
+    background-image: url('../images/title.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-left: 80px;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+#wrapper #midBar #subPages{
+    margin-top: 20px;   
+}
+#wrapper #midBar #subPages .title{
+    background-image: url('../images/title.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+#wrapper #midBar #gallery{
+    margin-top: 20px;
+}
+#wrapper #midBar #gallery .title{
+    background-image: url('../images/title.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: normal;
+    padding-left: 80px;
+    padding-bottom: 5px;
+}
+#wrapper #midBar #videoGallery{
+    margin-top: 20px;
+}
+#wrapper #midBar #videoGallery .title{
+    background-image: url('../images/title.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: normal;
+    padding-left: 80px;
+    padding-bottom: 5px;
+}
+#wrapper #leftSideBar{
+    width: 280px;
+    background-color: #5e759c;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 100px;
+    height: 2200px;
+}
+#wrapper #leftSideBar #khamesAlkhanjar{
+    
+}
+#wrapper #leftSideBar #khamesAlkhanjar .personalWebsite{
+    display: block;
+    width: 255px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    background-image: url('../images/personal.jpg');
+}
+#wrapper #leftSideBar #khamesAlkhanjar .cv{
+    display: block;
+    width: 255px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    background-image: url('../images/cv.jpg');
+    
+}
+#wrapper #leftSideBar #khamesAlkhanjar .twits{
+    display: block;
+    width: 255px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    background-image: url('../images/twits.jpg');
+}
+#wrapper #leftSideBar #khamesAlkhanjarSocial{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #556b90;
+    line-height: 38px;
+    height: 38px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#wrapper #leftSideBar #secretaryGeneral{
+    background-color: #39b19c;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+}
+#wrapper #leftSideBar .secretaryGeneralItems{
+    background-color: #8b9bb6;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#wrapper #leftSideBar .secretaryGeneralItems .image{
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+#wrapper #leftSideBar .secretaryGeneralItems .views{
+    height: 18px;
+    line-height: 18px;
+    width: 250px;
+    background-color: #9ca9c0;
+    text-align: center;
+}
+#wrapper #leftSideBar .secretaryGeneralItems .title{
+    color: #fff;
+    padding: 5px;
+}
+
+#wrapper #leftSideBar #positions{
+    background-color: #39b19c;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+}
+#wrapper #leftSideBar .positionsGeneralItems{
+    background-color: #8b9bb6;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#wrapper #leftSideBar .positionsGeneralItems .image{
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+#wrapper #leftSideBar .positionsGeneralItems .views{
+    height: 18px;
+    line-height: 18px;
+    width: 250px;
+    background-color: #9ca9c0;
+    text-align: center;
+}
+#wrapper #leftSideBar .positionsGeneralItems .title{
+    color: #fff;
+    padding: 5px;
+}
+#footer{
+    background-color: #4f6385;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#footer #container{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+#footer #container #almashroaaFooter{
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+}
+#footer #container #copyrights{
+    display: inline-block;
+    vertical-align: top;
+    color: #a1acc0;
+    text-align: center;
+    width: 600px;
+}
+#footer #container #copyrights h1{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#footer #container #copyrights a{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#footer #container #menu{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+}
+#footer #container #menu ul{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+    border-top: 4px solid #7286a7;
+}
+#footer #container #menu ul li{
+    list-style-type: none;
+    text-align: center;
+}
+#footer #container #menu ul li a{
+    color: #fff;
+    font-size: 0.7em;
+}
+#footer #navigation{
+    background-color: #455a7e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#footer #navigation ul{
+    margin: 0px;
+    padding: 0px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#footer #navigation ul li{
+    list-style-type: none;
+    display: inline;
+}
+#footer #navigation ul li a{
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #fff;
+}

@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body {
+    background-color: #EEE;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Droid Arabic Kufi';
+    font-size: 10px;
+    text-decoration: none;
+    color: #444;
+}
+a {
+    text-decoration: none;
+    color: #666;
+    font-size: 10px;
+}
+h2 {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 0px;
+    color: #F00 !important;
+    text-align: center !important;
+}
+h2.loginMessage {
+    font-size: 16px;
+    font-weight: bold;
+    color: #F00;
+    text-align: center;
+    font-family: 'Droid Arabic Kufi';
+}
+.imageIcon{
+    cursor: pointer;
+    margin-left: 10px;
+}
+table {
+    margin-bottom: 20px;
+}
+input[type = text], input[type = password]{
+    background-color: #f3f3f3;    
+    padding: 0px 10px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    font-family: 'Droid Arabic Kufi';
+    outline: none;
+}
+input[type = text].bigTextField {
+    background-color: #f3f3f3;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 730px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+}
+textarea{
+    width: 700px;
+    font-family: 'Droid Arabic Kufi';
+    background-color: #f3f3f3;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+input[type=submit], input[type=button]{
+    width: 150px;
+    line-height: 25px;
+    height: 25px;
+    border: none;
+    background-color: #4d5363;
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'Droid Arabic Kufi';
+    font-size: 10px;
+    outline: none;
+}
+input:hover[type=submit], input:hover[type=button]{
+    width: 150px;
+    line-height: 25px;
+    height: 25px;
+    border: none;
+    background-color: limegreen;
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'Droid Arabic Kufi';
+    font-size: 10px;
+    outline: none;
+}
+select{
+    font-family: 'Droid Arabic Kufi';
+    font-size: 10px;
+    width: 200px;
+}
+label{
+    margin-right: 30px;
+}
+#wrapper {
+    width: 950px;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#wrapper .user_info_area {
+    text-align: right;
+    padding-left: 10px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+#wrapper .user_info_area .welcome {
+    margin-bottom: 15px;
+    text-align: right;
+    color: #666;
+    padding-bottom: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #999;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 10px;
+}
+#wrapper .user_info_area .welcome .user_text {
+    color: #F00;
+}
+#wrapper .user_info_area .navigation_bar {
+    text-align: right;
+    padding-right: 30px;
+    margin-top: 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCC;
+    padding-top: 15px;
+}
+td.tableCellHome {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+#wrapper #bottom_round {
+    background-image: url(../images/round_bottom.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 950px;
+}
+#wrapper #top_round {
+    background-image: url(../images/round_top.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 950px;
+}
+#wrapper #header {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    height: 134px;
+    width: 940px;
+}
+#wrapper #header , #wrapper #main{
+    padding: 5px;
+    background-color: #FFF;
+}
+.section {
+    line-height: 33px;
+    color: #FFF;
+    background-color: #4d5362;
+    height: 33px;
+    background-image: url(../images/control_section.jpg);
+    padding-right: 60px;
+    margin-bottom: 30px;
+}
+.table_header {
+    line-height: 25px;
+    color: #FFF;
+    background-color: #4d5362;
+    height: 25px;
+    text-align: right;
+    font-size: 10px;
+}
+.table_row_a {
+    font-size: 10px;
+    line-height: 20px;
+    height: 20px;
+}
+.table_row_b {
+    background-color: #EEE;
+    font-size: 10px;
+    line-height: 20px;
+    height: 20px;
+}
+#copyright {
+    color: #666;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 10px;
+}
+#copyright a {
+    font-size: 10px;
+    color: #666;
+}
+attachmentImage {
+    cursor: pointer;
+}
+.imageFileStyle{
+    display: none;
+}
